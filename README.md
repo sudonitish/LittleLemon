@@ -15,7 +15,6 @@ LittleLemon is a Django-based restaurant management API project. It provides end
 - `restaurant/` - Django app for menu and booking
 - `tests/` - Unit tests for models and views
 
-
 ## Setup Instructions
 
 ### 1. Install Python
@@ -102,4 +101,10 @@ python manage.py runserver
   ```
 
 ## License
-This project is for educational purposes.
+This project is licensed under the Educational Community License, Version 2.0 (ECL-2.0). See the [LICENSE](LICENSE) file for details.
+
+### Key License Points:
+- Free for educational and non-commercial use only
+- Redistributions must retain the copyright and license
+- No warranty is provided
+
