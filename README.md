@@ -46,7 +46,12 @@ pip install -r requirements.txt
 
 ### 5. Configure your MySQL database
 - Edit `littlelemon/settings.py` and update the `DATABASES` section with your MySQL credentials.
-- Make sure your MySQL server is running and the database exists.
+- Make sure your MySQL server is running.
+- **Create a database named `LittleLemon` in your MySQL server before running migrations.**
+  You can do this by logging into MySQL and running:
+  ```sql
+  CREATE DATABASE LittleLemon;
+  ```
 
 ### 6. Run migrations
 ```sh

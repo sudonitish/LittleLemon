@@ -1,0 +1,14 @@
+
+# Core Django and REST
+Django>=3.2,<5.0
+djangorestframework
+djangorestframework-authtoken
+
+# Authentication
+djoser
+
+# CORS
+django-cors-headers
+
+# MySQL support
+mysqlclient
